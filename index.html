@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Calculadora</title>
+  </head>
+  
+  <body>
+    <div>
+      <input type="text" id="num1" autofocus />
+      <select id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input type="text" id="num2" />
+      =
+      <button id="calcular">Calcular</button>
+      <input type="text" id="resultado" readonly />
+    </div>
+  </body>
+
+  <script type="module" src="dist/index.js"></script>
+</html>
