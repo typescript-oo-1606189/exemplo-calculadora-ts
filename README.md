@@ -1,4 +1,4 @@
-# exemplo-calculadora-js
+# exemplo-calculadora-ts
 
 # Rodando o projeto localmente
 
